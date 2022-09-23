@@ -25,8 +25,8 @@ Updates
 * The bot is continiously running on AWS servers and every hour gets data from different webpages
 * The data are gethered by API's Provided by these sites
 * Then this raw data gets filter to remove any duplicates and unknown formates
-* After filtering the data go to validation checking portion where it get checked if the proxy is good or bad.
-* After that it go to commit session where it updates the old proxies on github
+* After filtering the data go to validation checking section where it get checked if the proxy is good or bad.
+* After that it go to commit section where it updates the old proxies on github
 
 ## Reference webpages
 * [free-proxy-list.net](https://free-proxy-list.net)
