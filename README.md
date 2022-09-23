@@ -17,7 +17,7 @@ Updates
     These Proxy lists update hourly
 
 ## Filters
-    1. No of these given proxies are bad proxies.  
+    1. None of these given proxies are bad proxies.  
     2. Script test all proxies before updating
     3. Every Proxy is unique
     4. All proxies are tested on 30ms timeout
