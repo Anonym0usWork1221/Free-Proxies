@@ -14,7 +14,7 @@ Free-Proxies
 
 Updates
 -----------
-    **These Proxy lists update hourly**
+    These Proxy lists update hourly
 
 ## Filters
     1. No of these given proxies are bad proxies.  
