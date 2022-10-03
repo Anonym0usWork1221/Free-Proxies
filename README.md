@@ -4,7 +4,7 @@ Free-Proxies
 [![GitHub forks](https://img.shields.io/github/forks/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/issues)
 -----------
-**Hourly update**
+**Hourly Daily**
 
 <br>
 <br>
@@ -14,7 +14,7 @@ Free-Proxies
 
 Updates
 -----------
-    These Proxy lists update hourly
+    These Proxy lists update Daily
 
 ## Filters
     1. None of these given proxies are bad proxies.  
@@ -23,7 +23,7 @@ Updates
     4. All proxies are tested on 30ms timeout
 
 ## Automation
-* The bot is continiously running on AWS servers and every hour gets data from different webpages
+* The bot is continiously running on AWS servers and every Daily gets data from different webpages
 * The data are gethered by API's Provided by these sites
 * Then this raw data gets filter to remove any duplicates and unknown formates
 * After filtering the data go to validation checking section where it get checked if the proxy is good or bad.
