@@ -4,6 +4,9 @@ Free-Proxies
 [![GitHub forks](https://img.shields.io/github/forks/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/issues)
 -----------
+
+You can get fresh proxies any time using the [![Bot]](https://t.me/reverse_master_bot)
+
 **Daily Update On 00:00 UTC**
 
 <br>
