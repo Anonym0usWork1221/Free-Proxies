@@ -26,11 +26,11 @@ Updates
     4. All proxies are tested on 30ms timeout
 
 ## Automation
-* The bot is continuously running on WayScript servers and every Day gets data from different webpages
-* The data are gathered by APIs Provided by these sites
-* Then this raw data gets filter to remove any duplicates and unknown formats
-* After filtering the data go to validation checking section where it gets checked if the proxy is good or bad.
-* After that it go to commit section where it updates the old proxies on GitHub.
+* The bot continuously runs on WayScript servers and gathers data from different webpages every day.
+* The data is gathered through APIs provided by these sites.
+* The raw data is filtered to remove duplicates and unknown formats.
+* After filtering, the data goes to a validation checking section, where it is checked if the proxy is good or bad.
+* Finally, the data goes to the commit section, where it updates the old proxies on GitHub.
 
 ## Reference webpages
 * [free-proxy-list.net](https://free-proxy-list.net)
