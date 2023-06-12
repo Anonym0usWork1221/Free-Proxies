@@ -23,14 +23,14 @@ Updates
     1. None of these given proxies are bad proxies.  
     2. Script test all proxies before updating
     3. Every Proxy is unique
-    4. All proxies are tested on 30ms timeout
+    4. All proxies are tested on 20ms timeout
 
 ## Automation
-* The bot continuously runs on WayScript servers and gathers data from different webpages every day.
+* The bot runs continuously on GitHub servers and collects data from various webpages every day.
 * The data is gathered through APIs provided by these sites.
 * The raw data is filtered to remove duplicates and unknown formats.
-* After filtering, the data goes to a validation checking section, where it is checked if the proxy is good or bad.
-* Finally, the data goes to the commit section, where it updates the old proxies on GitHub.
+* After filtering, the data is passed through a validation checking section where it is determined whether the proxy is good or bad.
+* Finally, the data is sent to the commit section, where it updates the old proxies on GitHub.
 
 ## Reference webpages
 * [free-proxy-list.net](https://free-proxy-list.net)
