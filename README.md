@@ -7,7 +7,7 @@ Free-Proxies
 
 **__You can get fresh proxies any time using the [Bot](https://t.me/reverse_master_bot)__**
 
-**Daily Update On 00:00 UTC**
+**Update every 2 hours**
 
 <br>
 <br>
