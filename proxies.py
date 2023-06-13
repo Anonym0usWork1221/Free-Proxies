@@ -93,6 +93,6 @@ class Proxies:
 
 
 if __name__ == '__main__':
-    number_of_threads = 100
+    number_of_threads = 500
     proxies_fetcher = Proxies(num_workers=number_of_threads)
     proxies_fetcher.proxies_scraper()
