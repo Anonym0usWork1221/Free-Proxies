@@ -5,7 +5,7 @@ from requests import get
 class ProxyCheckers:
     TEST_ADDR = 'https://api.my-ip.io/ip'
 
-    def __init__(self, time_out: int = 80):
+    def __init__(self, time_out: int = 500):
         self._time_out = time_out
         super().__init__()
 
