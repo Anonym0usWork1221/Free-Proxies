@@ -76,18 +76,23 @@ class Proxies:
 
         print("[+] Fetching Proxies from different sources")
         http, https, socks4, socks5 = self._proxy_scraper.scrape_proxies_lists()
-        p_types = ["http", "https", "socks4", "socks5"]
-        print(f"[+] Validating Proxies: Working thread {self._num_workers}")
-        with ThreadPoolExecutor(max_workers=self._num_workers) as executor:
-            futures = []
-            for proxy_type in p_types:
-                print(f"[+] Validating Proxies of Type: {proxy_type}")
-                future = executor.submit(self._validate_proxies, http, proxy_type)
-                futures.append(future)
-            for future in futures:
-                if self._stop_requested:
-                    break
-                future.result()
+        # this section is for validation of proxies
+#         p_types = ["http", "https", "socks4", "socks5"]
+#         print(f"[+] Validating Proxies: Working thread {self._num_workers}")
+#         with ThreadPoolExecutor(max_workers=self._num_workers) as executor:
+#             futures = []
+#             for proxy_type in p_types:
+#                 print(f"[+] Validating Proxies of Type: {proxy_type}")
+#                 future = executor.submit(self._validate_proxies, http, proxy_type)
+#                 futures.append(future)
+#             for future in futures:
+#                 if self._stop_requested:
+#                     break
+#                 future.result()
+        self._valid_http.update(http)
+        self._valid_https.update(https)
+        self._valid_socks4.update(socks4)
+        self._valid_socks5.update(socks5)
 
         self._create_files()
 
