@@ -1,13 +1,13 @@
-Free-Proxies
+Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
 ====
 [![GitHub stars](https://img.shields.io/github/stars/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/issues)
 -----------
 
-**__You can get fresh proxies any time using the [Bot](https://t.me/reverse_master_bot)__**
+**__You can get fresh proxies any time using the [Bot](https://t.me/reverse_master_bot)__ (Bot is disabled right now)** 
 
-**Update every 2 hours**
+**Update after every 2 hours**
 
 <br>
 <br>
@@ -29,7 +29,7 @@ Updates
 * The bot runs continuously on GitHub servers and collects data from various webpages every day.
 * The data is gathered through APIs provided by these sites.
 * The raw data is filtered to remove duplicates and unknown formats.
-* After filtering, the data is passed through a validation checking section where it is determined whether the proxy is good or bad.
+* After filtering, the data is passed through a validation checking section where it is determined whether the proxy is good or bad. (Validation section is disabled right now).
 * Finally, the data is sent to the commit section, where it updates the old proxies on GitHub.
 
 ## Reference webpages
