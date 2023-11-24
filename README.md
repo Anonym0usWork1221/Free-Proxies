@@ -5,9 +5,9 @@ Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
 [![GitHub issues](https://img.shields.io/github/issues/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/issues)
 -----------
 
-**__You can get fresh proxies any time using the [Bot](https://t.me/reverse_master_bot)__ (Bot is disabled right now)** 
+**__Access fresh proxies anytime using the [Bot](https://t.me/reverse_master_bot)__ (Bot is currently disabled)** 
 
-**Update after every 2 hours**
+**Updates every 2 hours**
 
 <br>
 <br>
@@ -15,13 +15,25 @@ Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
   <img src="https://github.com/Anonym0usWork1221/Free-Proxies/blob/cd100f73f5a4a6f828cff32932160873af453ee3/Proxy-Server.png"  title="proxy-list">
 </p>
 
+-----
+ *  Date   : 2023/09/30
+ *  Author : **__Abdul Moez__**
+ *  Version : 0.2
+ *  Study  : UnderGraduate in GCU Lahore, Pakistan
+----
+Change Logs
+----
+    > Added new json file which keeps the record of all http, https, socks4 and socks5 proxies along site with their 
+       countries.
+    > Fixed non-working sources and added new ones
+
 Updates
 -----------
-    These Proxy lists update Daily
+    These proxy lists are updated daily.
 
 ## Filters
-    1. None of these given proxies are bad proxies.  
-    2. Script test all proxies before updating
+    1. None of the provided proxies are flagged as bad proxies.  
+    2. All proxies are tested before updating.
     3. Every Proxy is unique
     4. All proxies are tested on 20ms timeout
 
@@ -36,7 +48,6 @@ Updates
 * [free-proxy-list.net](https://free-proxy-list.net)
 * [premiumproxy.net](https://premiumproxy.net)
 * [proxy-list.download](https://www.proxy-list.download)
-* [proxyscan.io](https://www.proxyscan.io)
 
 # Contributor
 
