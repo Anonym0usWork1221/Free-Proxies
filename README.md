@@ -16,7 +16,7 @@ Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
 </p>
 
 -----
- *  Date   : 2023/09/30
+ *  Date   : 2023/11/25
  *  Author : **__Abdul Moez__**
  *  Version : 0.2
  *  Study  : UnderGraduate in GCU Lahore, Pakistan
