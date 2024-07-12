@@ -1,6 +1,7 @@
 from utils.proxy_handlers import ProxyCheckers
 from utils.proxy_scraper import ProxyScraper
 from os.path import exists, abspath
+from threading import Lock
 from os import makedirs
 import json
 
@@ -13,10 +14,17 @@ class Proxies:
     SOCKS5_DIR: str = f"{DIR_PATH}/socks5_proxies.txt"
     PROXIES_DUMP: str = f"{DIR_PATH}/proxies_dump.json"
 
-    def __init__(self, num_workers: int = 5, validate_proxies: bool = False) -> None:
+    def __init__(self,
+                 validate_proxies: bool = False,
+                 enable_threading: bool = True
+                 ) -> None:
+        self.__enable_threading: bool = enable_threading
+        self.__threading_lock: Lock = Lock()
         self._proxy_checker: ProxyCheckers = ProxyCheckers()
-        self._proxy_scraper: ProxyScraper = ProxyScraper()
-        self._num_workers: int = num_workers
+        self._proxy_scraper: ProxyScraper = ProxyScraper(
+            lock=self.__threading_lock,
+            enable_threading=self.__enable_threading
+        )
         self._validate_proxies: bool = validate_proxies
         self._stop_requested: bool = False
         self._check_the_path()
@@ -80,7 +88,7 @@ class Proxies:
 
         proxies: dict = self._proxy_scraper.scrape_proxies_lists()
         if self._validate_proxies:
-            print(f"[+] Validating Proxies: Working thread {self._num_workers}")
+            print(f"[+] Validating Proxies: Disabled For Now")
 
             # This validation is not correct I will change it in future
             # with ThreadPoolExecutor(max_workers=self._num_workers) as executor:
@@ -100,5 +108,5 @@ class Proxies:
 
 if __name__ == '__main__':
     number_of_threads = 10
-    proxies_fetcher = Proxies(num_workers=number_of_threads)
+    proxies_fetcher = Proxies()
     proxies_fetcher.proxies_scraper()

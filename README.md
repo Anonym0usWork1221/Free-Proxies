@@ -4,9 +4,6 @@ Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
 [![GitHub forks](https://img.shields.io/github/forks/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/issues)
 -----------
-
-**__Access fresh proxies anytime using the [Bot](https://t.me/reverse_master_bot)__ (Bot is currently disabled)** 
-
 **Updates every 2 hours**
 
 <br>
@@ -16,16 +13,15 @@ Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
 </p>
 
 -----
- *  Date   : 2023/11/25
+ *  Date   : 2024/07/13
  *  Author : **__Abdul Moez__**
- *  Version : 0.2
+ *  Version : 0.3
  *  Study  : UnderGraduate in GCU Lahore, Pakistan
 ----
 Change Logs
 ----
-    > Added new json file which keeps the record of all http, https, socks4 and socks5 proxies along site with their 
-       countries.
-    > Fixed non-working sources and added new ones
+    > Added threading to fetch proxies in parallel to save time.
+    > Fixed non-working sources and added 2 new sources
 
 Updates
 -----------
@@ -48,6 +44,7 @@ Updates
 * [free-proxy-list.net](https://free-proxy-list.net)
 * [premiumproxy.net](https://premiumproxy.net)
 * [proxy-list.download](https://www.proxy-list.download)
+* 
 
 # Contributor
 
