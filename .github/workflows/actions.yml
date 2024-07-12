@@ -10,7 +10,7 @@ jobs:
     steps:
 
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content
+        uses: actions/checkout@v3  # upaded to latest version
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -35,7 +35,7 @@ jobs:
           git diff-index --quiet HEAD || (git commit -a -m "updated proxies" --allow-empty)
 
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v1   # upaded to latest version
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main 
