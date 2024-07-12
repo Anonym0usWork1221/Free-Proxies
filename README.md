@@ -3,6 +3,7 @@ Free-Proxies (Unlock a World of Possibilities with Free Proxies!)
 [![GitHub stars](https://img.shields.io/github/stars/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Anonym0usWork1221/Free-Proxies.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/issues)
+[![run proxies.py](https://github.com/Anonym0usWork1221/Free-Proxies/actions/workflows/actions.yml/badge.svg)](https://github.com/Anonym0usWork1221/Free-Proxies/actions/workflows/actions.yml)
 -----------
 **Updates every 2 hours**
 
