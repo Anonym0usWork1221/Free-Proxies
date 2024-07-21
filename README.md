@@ -47,7 +47,7 @@ Updates
 * [proxy-list.download](https://www.proxy-list.download)
 * 
 
-# Contributor
+# Contributors
 
 <a href = "https://github.com/Anonym0usWork1221/Free-Proxies/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=Anonym0usWork1221/Free-Proxies"/>
