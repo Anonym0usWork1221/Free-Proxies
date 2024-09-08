@@ -45,7 +45,6 @@ Updates
 * [free-proxy-list.net](https://free-proxy-list.net)
 * [premiumproxy.net](https://premiumproxy.net)
 * [proxy-list.download](https://www.proxy-list.download)
-* 
 
 # Contributors
 
