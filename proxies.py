@@ -45,12 +45,12 @@ class Proxies:
             self.SOCKS5_DIR: socks5_proxies_list,
         }
         for directory, write_data in file_directories.items():
-            with open(directory, "w") as file:
+            with open(directory, "w", encoding="utf-8") as file:
                 file.write("\n".join(write_data))
                 file.close()
 
         # dump the complete proxies file
-        with open(self.PROXIES_DUMP, "w") as file:
+        with open(self.PROXIES_DUMP, "w", encoding="utf-8") as file:
             json.dump(obj=proxies, fp=file)
             file.close()
 

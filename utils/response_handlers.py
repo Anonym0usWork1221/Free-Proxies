@@ -13,7 +13,7 @@ class ResponseHandlers:
     def get_response(self, url) -> any([None, Response]):
         headers = self._generate_headers()
         try:
-            response = get(url=url, headers=headers)
+            response = get(url=url, headers=headers, timeout=10.0)
             return response
         except Exception as e:
             print('[-] Unable to fetch response: ', e)
