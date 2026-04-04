@@ -25,7 +25,7 @@ class ProxyCheckers:
             response = get(target_url, proxies=proxies, timeout=self._time_out)
             if response.ok:
                 ip_api_url = f'http://ip-api.com/json/{proxy_host}'
-                ip_info = get(ip_api_url).json()
+                ip_info = get(ip_api_url, timeout=10.0).json()
                 country = ip_info.get('country')
 
                 return {

@@ -13,7 +13,7 @@ class ResponseHandlers:
     def get_response(self, url) -> any([None, Response]):
         headers = self._generate_headers()
         try:
-            response = get(url=url, headers=headers)
+            response = get(url=url, headers=headers, timeout=10.0)
             return response
         except Exception as e:
             print('[-] Unable to fetch response: ', e)
@@ -22,7 +22,7 @@ class ResponseHandlers:
     def get_session_response(self, url) -> any([None, Response]):
         headers = self._generate_headers()
         try:
-            response = self._session.get(url=url, headers=headers)
+            response = self._session.get(url=url, headers=headers, timeout=10.0)
             return response
         except Exception as e:
             print('[-] Unable to fetch response: ', e)
@@ -31,7 +31,7 @@ class ResponseHandlers:
     def get_cloud_bypass_response(self, url) -> any([None, Response]):
         headers = self._generate_headers()
         try:
-            response = self._cloud_session.get(url=url, headers=headers)
+            response = self._cloud_session.get(url=url, headers=headers, timeout=10.0)
             return response
         except Exception as e:
             print('[-] Unable to fetch response: ', e)
